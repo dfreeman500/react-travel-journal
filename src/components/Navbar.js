@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
+ import globe from '../images/Fill213.png'
+
 
 export default function Navbar() {
     return (
-        <nav>
-            <img src="www" className="globe-picture" alt="globe picture" />
+        <nav className="nav">
+            <img src={globe} className="globe-picture" alt="globe" />
             <p className="header">my travel journal</p>
         </nav>
     )

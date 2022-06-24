@@ -18,9 +18,11 @@ function App() {
   })
 
   return (
-    <div>
+    <div className="enclosure">
       <Navbar/>
+      <div className="cards">
       {cards}
+      </div>
     </div>
   )
 }
